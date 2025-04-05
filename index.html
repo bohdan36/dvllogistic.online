@@ -1,46 +1,78 @@
 <!DOCTYPE html>
 <html lang="uk">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DVLLogistic</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            text-align: center;
-            background-color: #f4f4f4;
-            margin: 0;
-            padding: 0;
-        }
-        .container {
-            max-width: 600px;
-            margin: 50px auto;
-            background: white;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-        }
-        h1 {
-            color: #333;
-        }
-        p {
-            color: #666;
-        }
-        .contact {
-            margin-top: 20px;
-            font-size: 18px;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DV Logistic</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f4f4f4;
+      color: #333;
+    }
+    header {
+      background: #1e3a8a;
+      color: white;
+      padding: 1.5rem;
+      text-align: center;
+    }
+    header img {
+      max-height: 80px;
+      margin-bottom: 10px;
+    }
+    .content {
+      max-width: 800px;
+      margin: 2rem auto;
+      background: white;
+      padding: 2rem;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+    h1 {
+      margin-top: 0;
+      font-size: 2rem;
+    }
+    .contact {
+      margin-top: 2rem;
+      font-size: 1.1rem;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background: #1e3a8a;
+      color: white;
+      margin-top: 2rem;
+    }
+    @media (max-width: 600px) {
+      .content {
+        margin: 1rem;
+        padding: 1.5rem;
+      }
+      h1 {
+        font-size: 1.5rem;
+      }
+    }
+  </style>
 </head>
 <body>
-    <div class="container">
-        <h1>Ласкаво просимо до DVLLogistic</h1>
-        <p>Надійні логістичні рішення для вашого бізнесу</p>
-        <div class="contact">
-            <p>Зв'яжіться з нами:</p>
-            <p>Email: info@dvllogistic.online</p>
-           
-        </div>
+  <header>
+    <img src="logo.png" alt="DV Logistic Logo" />
+    <h1>DV Logistic</h1>
+    <p>Перевезення зернових вантажів автотранспортом по Україні</p>
+  </header>
+  <div class="content">
+    <p>
+      Наша компанія спеціалізується на перевезенні зернових культур по всій території України. Маємо власний автопарк, досвідчених водіїв та гарантуємо вчасну доставку.
+    </p>
+    <div class="contact">
+      <p><strong>Контакти:</strong></p>
+    
+      <p>Email: info@dvllogistic.online</p>
     </div>
+  </div>
+  <footer>
+    &copy; 2025 DV Logistic. Всі права захищено.
+  </footer>
 </body>
 </html>
